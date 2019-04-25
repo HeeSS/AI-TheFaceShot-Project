@@ -1,0 +1,104 @@
+type *.csv > merge_name.csv
+batch - > 500*1668 picture(48x48x1)
+
+0412--------------------------------------------------------------------------
+ckpt: /1555062598.462864GrayScale_rate0.0003_epoch150_batch4000.ckpt
+Accuracy: 1.000000 (traing data(200 pieces) = test data)
+
+0415--------------------------------------------------------------------------
+train 1063 pieces
+test 108 pieces (20, 51, 7, 8, 13, 3, 6)
+
+ckpt: /1555319747.5929892GrayScale_rate0.0003_epoch150_batch500.ckpt
+Accuracy: 0.361111
+
+ckpt: /1555320005.814049GrayScale_rate0.0003_epoch85_batch500.ckpt
+Accuracy: 0.444444 
+
+0425--------------------------------------------------------------------------
+OpenCV preprocessing!!
+train 1668 (245, 809, 95, 124, 250, 42, 103)
+test 181 (25, 90, 10, 13, 28, 4, 11)
+
+48x48 grayscale
+ckpt: /1556181121.6235015GrayScale_rate0.0003_epoch85_batch500.ckpt
+Accuracy: 0.662983
+face 0 miss classification: 10, accuracy: 0.600000
+face 1 miss classification: 2, accuracy: 0.977778
+face 2 miss classification: 8, accuracy: 0.200000
+face 3 miss classification: 12, accuracy: 0.076923
+face 4 miss classification: 20, accuracy: 0.285714
+face 5 miss classification: 2, accuracy: 0.500000
+face 6 miss classification: 7, accuracy: 0.363636
+
+96x96 grayscale
+ckpt: /1556185190.9790637GrayScale_rate0.0003_epoch85_batch150.ckpt
+Accuracy: 0.668508
+face 0 miss classification: 6, accuracy: 0.760000
+face 1 miss classification: 10, accuracy: 0.888889
+face 2 miss classification: 8, accuracy: 0.200000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 13, accuracy: 0.535714
+face 5 miss classification: 3, accuracy: 0.250000
+face 6 miss classification: 9, accuracy: 0.181818
+
+ckpt: /1556185742.068451GrayScale_rate0.0003_epoch50_batch150.ckpt
+Accuracy: 0.629834
+face 0 miss classification: 20, accuracy: 0.200000
+face 1 miss classification: 8, accuracy: 0.911111
+face 2 miss classification: 10, accuracy: 0.000000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 8, accuracy: 0.714286
+face 5 miss classification: 3, accuracy: 0.250000
+face 6 miss classification: 7, accuracy: 0.363636
+
+ckpt: /1556188376.972247GrayScale_rate0.0003_epoch67_batch150.ckpt
+Accuracy: 0.685083
+face 0 miss classification: 11, accuracy: 0.560000
+face 1 miss classification: 6, accuracy: 0.933333
+face 2 miss classification: 6, accuracy: 0.400000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 11, accuracy: 0.607143
+face 5 miss classification: 3, accuracy: 0.250000
+face 6 miss classification: 9, accuracy: 0.181818
+
+ckpt: /1556188840.2206886GrayScale_rate0.0003_epoch72_batch150.ckpt
+Accuracy: 0.679558
+face 0 miss classification: 5, accuracy: 0.800000
+face 1 miss classification: 3, accuracy: 0.966667
+face 2 miss classification: 10, accuracy: 0.000000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 16, accuracy: 0.428571
+face 5 miss classification: 4, accuracy: 0.000000
+face 6 miss classification: 9, accuracy: 0.181818
+
+ckpt: /1556189480.8268464GrayScale_rate0.0003_epoch63_batch150.ckpt
+Accuracy: 0.662983
+face 0 miss classification: 10, accuracy: 0.600000
+face 1 miss classification: 6, accuracy: 0.933333
+face 2 miss classification: 9, accuracy: 0.100000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 13, accuracy: 0.535714
+face 5 miss classification: 3, accuracy: 0.250000
+face 6 miss classification: 9, accuracy: 0.181818
+
+ckpt: /1556190195.161743GrayScale_rate0.0001_epoch67_batch150.ckpt
+Accuracy: 0.651934
+face 0 miss classification: 7, accuracy: 0.720000
+face 1 miss classification: 3, accuracy: 0.966667
+face 2 miss classification: 9, accuracy: 0.100000
+face 3 miss classification: 11, accuracy: 0.153846
+face 4 miss classification: 19, accuracy: 0.321429
+face 5 miss classification: 4, accuracy: 0.000000
+face 6 miss classification: 10, accuracy: 0.090909
+
+ckpt: /1556191295.7504866GrayScale_rate0.0005_epoch67_batch150.ckpt
+Accuracy: 0.668508
+face 0 miss classification: 9, accuracy: 0.640000
+face 1 miss classification: 3, accuracy: 0.966667
+face 2 miss classification: 10, accuracy: 0.000000
+face 3 miss classification: 10, accuracy: 0.230769
+face 4 miss classification: 14, accuracy: 0.500000
+face 5 miss classification: 4, accuracy: 0.000000
+face 6 miss classification: 10, accuracy: 0.090909
+------------------------------------------------------------------------------
