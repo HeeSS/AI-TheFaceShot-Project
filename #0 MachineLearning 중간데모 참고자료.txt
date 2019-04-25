@@ -5,12 +5,12 @@ training_epochs: 150
 batch_size: 4000
 Cost: 0.012018
 Accuracy: 1.000000 
-Comment: "µ¥ÀÌÅÍ°¡ ºÎÁ·ÇÏ¿© traing data ¿Í test data ¸¦ °°°Ô ÇÔ(Á¤È®µµ ÀÇ¹Ì ¾øÀ½)."
+Comment: "ë°ì´í„°ê°€ ë¶€ì¡±í•˜ì—¬ traing data ì™€ test data ë¥¼ ê°™ê²Œ í•¨(ì •í™•ë„ ì˜ë¯¸ ì—†ìŒ)."
 
 0415--------------------------------------------------------------------------
 train 1063 pieces
 test 108 pieces (20, 51, 7, 8, 13, 3, 6)
-Comment: "ÇÐ½Àµ¥ÀÌÅÍÀÇ ¾à 10%¸¦ °ËÁõ µ¥ÀÌÅÍ·Î »ç¿ë."
+Comment: "í•™ìŠµë°ì´í„°ì˜ ì•½ 10%ë¥¼ ê²€ì¦ ë°ì´í„°ë¡œ ì‚¬ìš©."
 
 -- FirstModel(48x48x1)-----------------------
 learning_rate: 0.000300
@@ -18,18 +18,18 @@ training_epochs: 150
 batch_size: 500
 Cost: 0.000000
 Accuracy: 0.361111
-Comment: "°úÀûÇÕ 
+Comment: "ê³¼ì í•© 
 
 -- FirstModel(48x48x1)-----------------------
 learning_rate: 0.000300
 training_epochs: 85
 batch_size: 500
 Cost: 0.000473
-Accuracy: 0.444444 ¡è
-Comment: "°úÀûÇÕ Á¦°Å ÈÄ Á¤È®µµ Çâ»ó."
+Accuracy: 0.444444 â†‘
+Comment: "ê³¼ì í•© ì œê±° í›„ ì •í™•ë„ í–¥ìƒ."
 
 0425--------------------------------------------------------------------------
-Comment: "4¿ù 25ÀÏºÎÅÍ OpenCV·Î ¾ó±¼¸¸ ÀÚ¸¥ »çÁøÀ» ÇÐ½Àµ¥ÀÌÅÍ·Î ÀÌ¿ë ½ÃÀÛ!"
+Comment: "4ì›” 25ì¼ë¶€í„° OpenCVë¡œ ì–¼êµ´ë§Œ ìžë¥¸ ì‚¬ì§„ì„ í•™ìŠµë°ì´í„°ë¡œ ì´ìš© ì‹œìž‘!"
 OpenCV preprocessing!! 
 train 1668 (245, 809, 95, 124, 250, 42, 103)
 test 181 (25, 90, 10, 13, 28, 4, 11)
@@ -39,7 +39,7 @@ learning_rate: 0.000300
 training_epochs: 85
 batch_size: 500
 Cost: 0.000226
-Accuracy: 0.662983 ¡è
+Accuracy: 0.662983 â†‘
 face 0 miss classification: 10, accuracy: 0.600000
 face 1 miss classification: 2, accuracy: 0.977778
 face 2 miss classification: 8, accuracy: 0.200000
@@ -47,52 +47,52 @@ face 3 miss classification: 12, accuracy: 0.076923
 face 4 miss classification: 20, accuracy: 0.285714
 face 5 miss classification: 2, accuracy: 0.500000
 face 6 miss classification: 7, accuracy: 0.363636
-Comment: " OpenCV ÀüÃ³¸® °úÁ¤ ÈÄ Á¤È®µµ°¡ ¾à 22% Çâ»ó.
-Ç¥Á¤º° ¿ÀºÐ·ù °³¼ö¸¦ Ä«¿îÆ®ÇÏ¿©, Ç¥Á¤º° ºÐ·ù Á¤È®µµ¸¦ ¼¼ºÐÈ­ ÇÔ. 
-ÇÐ½Àµ¥ÀÌÅÍÀÇ ¾ç¿¡ ºñ·ÊÇÏ¿© Á¤È®µµ°¡ ¿Ã¶ó°¡´Â °ÍÀ» È®ÀÎ ÇÒ ¼ö ÀÖÀ½.
-5¹ø Ç¥Á¤Àº ÇÐ½À, °ËÁõ µ¥ÀÌÅÍ ¼ö°¡ ³Ê¹« ³·À¸¹Ç·Î Á¤È®µµ¸¦ ½Å·ÚÇÒ ¼ö ¾øÀ½."
+Comment: " OpenCV ì „ì²˜ë¦¬ ê³¼ì • í›„ ì •í™•ë„ê°€ ì•½ 22% í–¥ìƒ.
+í‘œì •ë³„ ì˜¤ë¶„ë¥˜ ê°œìˆ˜ë¥¼ ì¹´ìš´íŠ¸í•˜ì—¬, í‘œì •ë³„ ë¶„ë¥˜ ì •í™•ë„ë¥¼ ì„¸ë¶„í™” í•¨. 
+í•™ìŠµë°ì´í„°ì˜ ì–‘ì— ë¹„ë¡€í•˜ì—¬ ì •í™•ë„ê°€ ì˜¬ë¼ê°€ëŠ” ê²ƒì„ í™•ì¸ í•  ìˆ˜ ìžˆìŒ.
+5ë²ˆ í‘œì •ì€ í•™ìŠµ, ê²€ì¦ ë°ì´í„° ìˆ˜ê°€ ë„ˆë¬´ ë‚®ìœ¼ë¯€ë¡œ ì •í™•ë„ë¥¼ ì‹ ë¢°í•  ìˆ˜ ì—†ìŒ."
 
 -- FirstModel(96x96x1)-----------------------
 learning_rate: 0.000300
 training_epochs: 85
 batch_size: 150
 Cost: 0.000001
-Accuracy: 0.668508 ¡è
-face 0 miss classification: 6, accuracy: 0.760000 ¡è
-face 1 miss classification: 10, accuracy: 0.888889 ¡é
+Accuracy: 0.668508 â†‘
+face 0 miss classification: 6, accuracy: 0.760000 â†‘
+face 1 miss classification: 10, accuracy: 0.888889 â†“
 face 2 miss classification: 8, accuracy: 0.200000 =
-face 3 miss classification: 11, accuracy: 0.153846 ¡è
-face 4 miss classification: 13, accuracy: 0.535714 ¡è
-face 5 miss classification: 3, accuracy: 0.250000 ¡é
-face 6 miss classification: 9, accuracy: 0.181818 ¡é
-Comment: "ÇÐ½À µ¥ÀÌÅÍ »çÀÌÁî¸¦ 48x48x1¿¡¼­ 96x96x1·Î È®´ëÇÏ¿© ÇÐ½ÀÇØ º» °á°ú Á¤È®µµ°¡ ¾à 1% Çâ»ó.
-Ç¥Á¤ 1¹øÀº ÇÐ½Àµ¥ÀÌÅÍ ¼ö°¡ ±²ÀåÈ÷ ¸¹À½¿¡µµ ºÒ±¸ÇÏ°í »çÁøÀ» 96x96±îÁö È®´ëÇÏ¿© °úÀûÇÕ µÈ °ÍÀ¸·Î ¿¹»ó...
-Ç¥Á¤ 5¹ø, 6¹øÀº µÎ·Á¿ò, ¿ª°Ü¿òÀ¸·Î 96x96À¸·Î È®´ë ÈÄ Á¤È®µµ´Â ¶³¾îÁ³À¸³ª, 
-Ç¥Á¤ºÐ·ù ±âÁØÀÌ ´Ã¾î³­ °Í¿¡ ºñÇØ µ¥ÀÌÅÍ ·®ÀÌ ºÎÁ·ÇÑ °ÍÀÌ ¿øÀÎÀÎ °ÍÀ¸·Î ¿¹»ó."
+face 3 miss classification: 11, accuracy: 0.153846 â†‘
+face 4 miss classification: 13, accuracy: 0.535714 â†‘
+face 5 miss classification: 3, accuracy: 0.250000 â†“
+face 6 miss classification: 9, accuracy: 0.181818 â†“
+Comment: "í•™ìŠµ ë°ì´í„° ì‚¬ì´ì¦ˆë¥¼ 48x48x1ì—ì„œ 96x96x1ë¡œ í™•ëŒ€í•˜ì—¬ í•™ìŠµí•´ ë³¸ ê²°ê³¼ ì •í™•ë„ê°€ ì•½ 1% í–¥ìƒ.
+í‘œì • 1ë²ˆì€ í•™ìŠµë°ì´í„° ìˆ˜ê°€ êµ‰ìž¥ížˆ ë§ŽìŒì—ë„ ë¶ˆêµ¬í•˜ê³  ì‚¬ì§„ì„ 96x96ê¹Œì§€ í™•ëŒ€í•˜ì—¬ ê³¼ì í•© ëœ ê²ƒìœ¼ë¡œ ì˜ˆìƒ...
+í‘œì • 5ë²ˆ, 6ë²ˆì€ ë‘ë ¤ì›€, ì—­ê²¨ì›€ìœ¼ë¡œ 96x96ìœ¼ë¡œ í™•ëŒ€ í›„ ì •í™•ë„ëŠ” ë–¨ì–´ì¡Œìœ¼ë‚˜, 
+í‘œì •ë¶„ë¥˜ ê¸°ì¤€ì´ ëŠ˜ì–´ë‚œ ê²ƒì— ë¹„í•´ ë°ì´í„° ëŸ‰ì´ ë¶€ì¡±í•œ ê²ƒì´ ì›ì¸ì¸ ê²ƒìœ¼ë¡œ ì˜ˆìƒ."
 
 -- FirstModel(96x96x1)-----------------------
 learning_rate: 0.000300
 training_epochs: 50
 batch_size: 150
 Cost: 0.000009
-Accuracy: 0.629834 ¡é
-face 0 miss classification: 20, accuracy: 0.200000 ¡é
-face 1 miss classification: 8, accuracy: 0.911111 ¡è
-face 2 miss classification: 10, accuracy: 0.000000 ¡é
+Accuracy: 0.629834 â†“
+face 0 miss classification: 20, accuracy: 0.200000 â†“
+face 1 miss classification: 8, accuracy: 0.911111 â†‘
+face 2 miss classification: 10, accuracy: 0.000000 â†“
 face 3 miss classification: 11, accuracy: 0.153846 = 
-face 4 miss classification: 8, accuracy: 0.714286 ¡è
+face 4 miss classification: 8, accuracy: 0.714286 â†‘
 face 5 miss classification: 3, accuracy: 0.250000 =
-face 6 miss classification: 7, accuracy: 0.363636 ¡è
-Comment: "°úÀûÇÕ ¿ì·Á·Î ÇÐ½ÀÀ» Á» Àû°Ô ½ÃÄÑº¸¾ÒÀ¸³ª ÀüÃ¼ÀûÀÎ Á¤È®µµ ÇÏ¶ô.
-0¹ø, 2¹ø Ç¥Á¤Àº Á¤È®µµ°¡ ±Þ°ÝÈ÷ ¶³¾îÁö°í,
-1¹ø(°úÀûÇÕ Á¦°Å·Î Á¤È®µµ Çâ»ó), 4¹ø, 6¹ø Ç¥Á¤Àº Á¤È®µµ Çâ»ó."
+face 6 miss classification: 7, accuracy: 0.363636 â†‘
+Comment: "ê³¼ì í•© ìš°ë ¤ë¡œ í•™ìŠµì„ ì¢€ ì ê²Œ ì‹œì¼œë³´ì•˜ìœ¼ë‚˜ ì „ì²´ì ì¸ ì •í™•ë„ í•˜ë½.
+0ë²ˆ, 2ë²ˆ í‘œì •ì€ ì •í™•ë„ê°€ ê¸‰ê²©ížˆ ë–¨ì–´ì§€ê³ ,
+1ë²ˆ(ê³¼ì í•© ì œê±°ë¡œ ì •í™•ë„ í–¥ìƒ), 4ë²ˆ, 6ë²ˆ í‘œì •ì€ ì •í™•ë„ í–¥ìƒ."
 
 -- FirstModel(96x96x1)-----------------------
 learning_rate: 0.000300
 training_epochs: 67
 batch_size: 150
 Cost: 0.000010
-Accuracy: 0.685083 ¡è
+Accuracy: 0.685083 â†‘
 face 0 miss classification: 11, accuracy: 0.560000
 face 1 miss classification: 6, accuracy: 0.933333
 face 2 miss classification: 6, accuracy: 0.400000
@@ -100,11 +100,11 @@ face 3 miss classification: 11, accuracy: 0.153846
 face 4 miss classification: 11, accuracy: 0.607143
 face 5 miss classification: 3, accuracy: 0.250000
 face 6 miss classification: 9, accuracy: 0.181818
-Comment: "Çö ¸ðµ¨ÀÇ °¡Àå ³ôÀº Á¤È®µµ¸¦ »Ì¾Æ³¾ ¼ö ÀÖ´Â learning rate´Â 0.0003, training epochÀº 67.."
+Comment: "í˜„ ëª¨ë¸ì˜ ê°€ìž¥ ë†’ì€ ì •í™•ë„ë¥¼ ë½‘ì•„ë‚¼ ìˆ˜ ìžˆëŠ” learning rateëŠ” 0.0003, training epochì€ 67.."
 
 learning rate 0.0003, training epoch 72 -> accuracy 67.9%
 learning rate 0.0003, training epoch 63 -> accuracy 66.2%
-learning rate 0.0003, training epoch 67 -> accuracy 68.5% ¡Ú
+learning rate 0.0003, training epoch 67 -> accuracy 68.5% â˜…
 learning rate 0.0001, training epoch 67 -> accuracy 65.1%
 learning rate 0.0005, training epoch 67 -> accuracy 66.8%
 
